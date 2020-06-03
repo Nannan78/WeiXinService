@@ -22,7 +22,7 @@ public class Connection {
 
     private static int j=100;
 
-    @GetMapping("/weixinconnnection")
+    @GetMapping("/test")
     public String test(String signature, String timestamp, String nonce, String echostr, HttpServletRequest request, HttpServletResponse response) throws NoSuchAlgorithmException, IOException {
         /*System.out.println(signature);
         System.out.println(timestamp);
@@ -38,7 +38,7 @@ public class Connection {
 
     }
 
-    @PostMapping("/weixinconnnection")
+    @PostMapping("/test")
     public String getMessageAndSend( HttpServletRequest request, HttpServletResponse response) throws NoSuchAlgorithmException, IOException, DocumentException, InterruptedException, TimeoutException {
        request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");

@@ -11,10 +11,10 @@ import java.net.URLConnection;
 
 public class GetConAccessToken {
     //测试公众号
-   /* private static final String APP_ID="wx20e774c6ee013f40";
-    private static final String APP_SECRET="b20bbe15e1aaaf1cfcde0790414fff50";*/
-    private static final String APP_ID="wx34e197ad8b29843e";
-    private static final String APP_SECRET="b4f2b53fc9616b37a6362fb40bef5172";
+    private static final String APP_ID="wx20e774c6ee013f40";
+    private static final String APP_SECRET="b20bbe15e1aaaf1cfcde0790414fff50";
+  /*  private static final String APP_ID="wx34e197ad8b29843e";
+    private static final String APP_SECRET="b4f2b53fc9616b37a6362fb40bef5172";*/
     private static final String GRANT_TPYE="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
     private static AccessToken at;
 
